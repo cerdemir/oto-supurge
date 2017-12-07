@@ -1,0 +1,7 @@
+INPUT 1 -> left1 OK
+INPUT 2 -> left2 OK
+INPUT 3 -> right1 OK
+INPUT 4 -> right2 OK
+
+enable a    left pwm
+enable b    right pwm
