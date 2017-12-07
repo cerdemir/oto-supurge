@@ -49,40 +49,7 @@ int main(void)
 
 printf("aaaaa\n");
         Beep();
-        /*
-        Delay(100);
-        GPIOC->ODR ^= GPIO_Pin_13;
-        girgirON();
-        Delay(100);
-        girgirOFF();
-        Delay(100);
-        vakumON();
-        Delay(100);
-        vakumOFF();
-        Delay(100);
-        MotorToogle();
-
-        Delay(100);
-        MotorSur(100,100);
-        Delay(100);
-        MotorSur(-100,-100);
-        Delay(100);
-        MotorSur(0,0);
-        Delay(100);
-
-        if (status ==1)
-        {
-           InitPWM(3000);
-            status = 0;
-            Delay(1000);
-        }
-        else
-        {
-            InitPWM(2000);
-            status = 1;
-            Delay(1000);
-        }
-        */
+       
         barrierStatus= IsBarrier();
         if(barrierStatus==FRONT_BARRIER)
         {
